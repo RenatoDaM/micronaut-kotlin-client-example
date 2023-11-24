@@ -7,7 +7,7 @@ import io.micronaut.context.annotation.Requires;
 @Requires(property = FaculdadeConfiguration.PREFIX)
 class FaculdadeConfiguration {
     var organization: String? = null
-    var repo: String? = null
+    var aluno: String? = null
     var username: String? = null
     var token: String? = null
     companion object {
