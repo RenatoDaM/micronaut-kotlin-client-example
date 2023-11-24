@@ -1,4 +1,4 @@
-package example.micronaut.client;
+package example.micronaut.client.config;
 
 import io.micronaut.context.annotation.ConfigurationProperties;
 import io.micronaut.context.annotation.Requires;

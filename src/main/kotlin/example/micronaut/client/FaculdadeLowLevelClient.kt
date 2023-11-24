@@ -1,16 +1,12 @@
 package example.micronaut.client
 
-import PageResponse
-import example.micronaut.client.dto.Aluno
 import example.micronaut.client.dto.ContentResponse
 import io.micronaut.core.type.Argument
-import io.micronaut.data.model.Page
 import io.micronaut.http.HttpHeaders.ACCEPT
 import io.micronaut.http.HttpRequest
 import io.micronaut.http.client.HttpClient
 import io.micronaut.http.client.annotation.Client
 import io.micronaut.http.uri.UriBuilder
-import io.micronaut.json.tree.JsonNode
 import jakarta.inject.Singleton
 import org.reactivestreams.Publisher
 import java.net.URI
