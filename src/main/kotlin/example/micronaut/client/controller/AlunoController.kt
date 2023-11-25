@@ -1,4 +1,4 @@
-package example.micronaut.controller;
+package example.micronaut.client.controller;
 
 import example.micronaut.client.FaculdadeLowLevelClient;
 import example.micronaut.client.dto.ContentResponse
@@ -8,7 +8,7 @@ import io.micronaut.http.annotation.Get
 import org.reactivestreams.Publisher
 
 @Controller("/faculdade")
-public class AlunoController (private val faculdadeLowLevelCleint :FaculdadeLowLevelClient) {
+class AlunoController (private val faculdadeLowLevelCleint :FaculdadeLowLevelClient) {
     @Get("/alunos")
     @SingleResult
     fun releasesWithLowLevelClient(): Publisher<ContentResponse>? {

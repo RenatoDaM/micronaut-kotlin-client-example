@@ -1,0 +1,14 @@
+#Thu Nov 23 14:28:02 BRT 2023
+micronaut.application.name=micronautguide
+application.max=50
+micronaut.http.services.faculdade.url=http://localhost:8080
+micronaut.server.port=8081
+faculdade.organization=faculdade
+faculdade.aluno=aluno
+jpa.default.reactive=true
+jpa.default.properties.hibernate.show_sql=true
+jpa.default.properties.hibernate.connection.url=jdbc:postgresql://localhost:5433/db_seguranca
+jpa.default.properties.hibernate.connection.username=postgres
+jpa.default.properties.hibernate.connection.password=root
+jpa.default.properties.hibernate.hbm2ddl.auto=update
+

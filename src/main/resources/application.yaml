@@ -1,0 +1,22 @@
+jpa:
+  default:
+    entity-scan:
+      packages:
+        - 'example.micronaut.domain.model'
+    properties:
+      hibernate:
+        show-sql: true
+        hbm2ddl:
+          auto: update
+        connection:
+          url: jdbc:postgresql://localhost:5433/db_seguranca
+          username: postgres
+          password: root
+          db-type: postgresql
+    reactive: true
+
+router:
+  static-resources:
+    swagger:
+      paths: classpath:META-INF/swagger
+      mapping: /swagger/**
