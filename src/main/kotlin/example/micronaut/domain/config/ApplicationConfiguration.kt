@@ -1,4 +1,4 @@
-package example.micronaut.domain.testing.testingtwo
+package example.micronaut.domain.config
 
 interface ApplicationConfiguration {
     val max: Int

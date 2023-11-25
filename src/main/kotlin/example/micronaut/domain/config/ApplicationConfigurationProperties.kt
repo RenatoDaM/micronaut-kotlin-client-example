@@ -1,6 +1,5 @@
 package example.micronaut.domain.config
 
-import example.micronaut.domain.testing.testingtwo.ApplicationConfiguration
 import io.micronaut.context.annotation.ConfigurationProperties
 
 @ConfigurationProperties("application")
